@@ -83,28 +83,28 @@ try {
 			  
 //=============---------------Perfect for date-----------=======================				  
 		
-		/*
-		 * List<WebElement> allDates =
-		 * driver.findElements(By.xpath("(//*[@class='dateInnerCell'])"));
-		 * 
-		 * for (WebElement ele : allDates) {
-		 * 
-		 * String date = ele.getText(); System.out.println(date);
-		 * 
-		 * // if(date.equalsIgnoreCase("31"))
-		 * 
-		 * // convert string date in int and add and again convert in to string
-		 * 
-		 * int i = Integer.parseInt(currentdate); int departure = i + 2; String d =
-		 * String.valueOf(departure); System.out.println("your departure date is " +
-		 * departure); Thread.sleep(1000);
-		 * 
-		 * if (date.startsWith(d)) { System.out.println("matched");
-		 * 
-		 * ele.click(); System.out.println("clicked"); break; }
-		 * 
-		 * }
-		 */
+		
+		  List<WebElement> allDates =
+		  driver.findElements(By.xpath("(//*[@class='dateInnerCell'])"));
+		  
+		  for (WebElement ele : allDates) {
+		  
+		  String date = ele.getText(); System.out.println(date);
+		  
+		  // if(date.equalsIgnoreCase("31"))
+		  
+		  // convert string date in int and add and again convert in to string
+		  
+		  int i = Integer.parseInt(currentdate); int departure = i + 2; String d =
+		  String.valueOf(departure); System.out.println("your departure date is " +
+		  departure); Thread.sleep(1000);
+		  
+		  if (date.startsWith(d)) { System.out.println("matched");
+		  
+		  ele.click(); System.out.println("clicked"); break; }
+		  
+		  }
+		 
 				  
 //================================---return date---===============================	  
 
