@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55946" started-at="2019-05-30T10:58:23Z" finished-at="2019-05-30T10:59:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="55946" started-at="2019-05-30T10:58:23Z" finished-at="2019-05-30T10:59:19Z">
+      <class name="Assignment.PlateIQ.SearchRequest">
+        <test-method status="PASS" signature="loginIntercityDashboard()[pri:0, instance:Assignment.PlateIQ.SearchRequest@55d56113]" name="loginIntercityDashboard" is-config="true" duration-ms="7642" started-at="2019-05-30T16:28:23Z" finished-at="2019-05-30T16:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntercityDashboard -->
+        <test-method status="PASS" signature="searchtrip()[pri:1, instance:Assignment.PlateIQ.SearchRequest@55d56113]" name="searchtrip" duration-ms="28092" started-at="2019-05-30T16:28:31Z" finished-at="2019-05-30T16:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtrip -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:Assignment.PlateIQ.SearchRequest@55d56113]" name="afterclass" is-config="true" duration-ms="0" started-at="2019-05-30T16:28:59Z" finished-at="2019-05-30T16:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- Assignment.PlateIQ.SearchRequest -->
+      <class name="Assignment.PlateIQ.PersonalLogin">
+        <test-method status="PASS" signature="loginIntercityDashboard()[pri:0, instance:Assignment.PlateIQ.PersonalLogin@148080bb]" name="loginIntercityDashboard" is-config="true" duration-ms="4151" started-at="2019-05-30T16:28:59Z" finished-at="2019-05-30T16:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntercityDashboard -->
+        <test-method status="PASS" signature="personalLogin()[pri:1, instance:Assignment.PlateIQ.PersonalLogin@148080bb]" name="personalLogin" duration-ms="16025" started-at="2019-05-30T16:29:03Z" finished-at="2019-05-30T16:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLogin -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:Assignment.PlateIQ.PersonalLogin@148080bb]" name="afterclass" is-config="true" duration-ms="1" started-at="2019-05-30T16:29:19Z" finished-at="2019-05-30T16:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- Assignment.PlateIQ.PersonalLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
